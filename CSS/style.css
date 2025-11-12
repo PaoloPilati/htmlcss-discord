@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General */
+
+body {
+    font-family: Helvetica, sans-serif
+}
+
+header {
+    background-color: #52e0f5e3;
+    height: 160px;
+    width: 100vw;
+}
+
+footer {
+    height: 160px;
+    border-top: 2px solid #b0adad;
+}
+
+li {
+    display: inline;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+
+/* Utils */
+
+.flex-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.flex-nav {
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+}
+
+.foot-flex {
+    background-color: #00a59a;
+}
+
+.fn-children {
+    text-align: center;
+    line-height: 80px;
+    vertical-align: middle;
+}
+
+.fs1-child {
+    height: 300px;
+    flex-basis: 40%;
+    background-color: #ee48ca;
+}
+
+.fs5-children {
+    background-color: #046504;
+}
+
+.fs6-children {
+    background-color: #00a59a;
+    border: 1px dashed #ffffff;
+    flex-basis: 10%;
+}
+.fs6-children:first-of-type {
+    background-color: #ee48ca;
+    flex-basis: 20%
+}
+
+.dashed {
+    border: 1px dashed #000000;
+}
+
+.sec-height {
+    height: 500px;
+}
+
+.divflex-height {
+    height: 400px;
+}
+
+.fix-fb60 {
+    flex-basis: 60%;
+}
+
+.fix-fb20 {
+    flex-basis: 20%;
+}
+/* Colori background */
+
+.bkg-org {
+    background-color: #f4b643;
+}
+
+.bluediv {
+    background-color: #a9e7ff;
+    flex-basis: 40%;
+}
+
+.pinkdiv {
+    background-color: #ffc0cb;
+    flex-basis: 20%;
+}
+
+.bkg-blue {
+    background-color: #0000ee;
+    height: 400px;
+}
+
+.bkg-lightblue {
+    background-color: #8fd9ee;  
+}
+
+.bkg-cream {
+    background-color: #f8f1a8;
+}
+
+.bkg-grey {
+    background-color: #b0adad;
+}
+
+.bkg-charcoal {
+    background-color: #1a1818;
+}
