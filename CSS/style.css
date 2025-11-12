@@ -11,9 +11,12 @@ body {
 }
 
 header {
-    background-color: #52e0f5e3;
-    height: 160px;
-    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-image: url("/img/jumbo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffffff;
 }
 
 footer {
@@ -28,11 +31,35 @@ li {
 
 nav ul li a {
     text-decoration: none;
-    color: #000000;
+    color: #ffffff;
 }
 
+button {
+    background: none;
+    border: none;
+}
+
+span {
+    background-color: #ffffff;
+    border: 0;
+    border-radius: 1rem;
+    font-weight: bold;
+    padding: 0.5rem
+}
+
+.btn-black {
+    background-color: #000000;
+    color: #ffffff;
+}
 
 /* Utils */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    margin: 0 auto;
+}
 
 .flex-section {
     display: flex;
@@ -44,7 +71,6 @@ nav ul li a {
 
 .flex-nav {
     display: flex;
-    height: 80px;
     justify-content: space-between;
 }
 
@@ -61,7 +87,6 @@ nav ul li a {
 .fs1-child {
     height: 300px;
     flex-basis: 40%;
-    background-color: #ee48ca;
 }
 
 .fs5-children {
@@ -76,6 +101,10 @@ nav ul li a {
 .fs6-children:first-of-type {
     background-color: #ee48ca;
     flex-basis: 20%
+}
+
+.mrg-b {
+    margin-bottom: 2rem;
 }
 
 .dashed {
@@ -99,7 +128,7 @@ nav ul li a {
 }
 /* Colori background */
 
-.bkg-org {
+.bg-org {
     background-color: #f4b643;
 }
 
@@ -113,23 +142,29 @@ nav ul li a {
     flex-basis: 20%;
 }
 
-.bkg-blue {
+.bg-blue {
     background-color: #0000ee;
     height: 400px;
 }
 
-.bkg-lightblue {
+.bg-lightblue {
     background-color: #8fd9ee;  
 }
 
-.bkg-cream {
+.bg-cream {
     background-color: #f8f1a8;
 }
 
-.bkg-grey {
+.bg-grey {
     background-color: #b0adad;
 }
 
-.bkg-charcoal {
+.bg-charcoal {
     background-color: #1a1818;
+}
+
+
+/* Graphic elements */
+
+.jumbotron {
 }
