@@ -12,15 +12,14 @@ body {
 
 header {
     display: flex;
-    flex-direction: column;
     background-image: url("/img/jumbo.png");
     background-size: cover;
     background-repeat: no-repeat;
     color: #ffffff;
+    text-align: center;
 }
 
 footer {
-    height: 160px;
     border-top: 2px solid #b0adad;
 }
 
@@ -57,7 +56,7 @@ span {
 .container {
     display: flex;
     flex-direction: column;
-    max-width: 80%;
+    max-width: 70%;
     margin: 0 auto;
 }
 
@@ -67,6 +66,14 @@ span {
     justify-content: center;
     align-items: center;
     align-content: center;
+    gap: 1rem;
+}
+
+.col-flex {
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
 }
 
 .flex-nav {
@@ -84,9 +91,7 @@ span {
     vertical-align: middle;
 }
 
-.fs1-child {
-    height: 300px;
-    flex-basis: 40%;
+.jumbotron {
 }
 
 .fs5-children {
@@ -103,8 +108,11 @@ span {
     flex-basis: 20%
 }
 
-.mrg-b {
+.mrg-b2 {
     margin-bottom: 2rem;
+}
+.mrg-b4 {
+    margin-bottom: 4rem;
 }
 
 .dashed {
@@ -123,6 +131,10 @@ span {
     flex-basis: 60%;
 }
 
+.fix-fb40 {
+    flex-basis: 40%;
+}
+
 .fix-fb20 {
     flex-basis: 20%;
 }
@@ -132,14 +144,12 @@ span {
     background-color: #f4b643;
 }
 
-.bluediv {
-    background-color: #a9e7ff;
-    flex-basis: 40%;
-}
-
 .pinkdiv {
     background-color: #ffc0cb;
     flex-basis: 20%;
+}
+
+.item1 {
 }
 
 .bg-blue {
@@ -151,7 +161,7 @@ span {
     background-color: #8fd9ee;  
 }
 
-.bg-cream {
+.bg-white {
     background-color: #f8f1a8;
 }
 

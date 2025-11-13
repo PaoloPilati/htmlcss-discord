@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Struttura FLexbox</title>
+    <title>Struttura Flexbox</title>
     <link rel="stylesheet" href="CSS/style.css" type="text/css">
 </head>
 <body>
-    <header class="mrg-b">
+    <header class="col-flex">
         <div class="container">
         <nav class="flex-nav flex-section">
             <img src="img/logo.svg" class="fn-children fix-fb20 dashed" alt="Discord logo image">
@@ -35,15 +35,15 @@
             </button>
         </nav>
         <div class="flex-section">
-            <div class="jumbotron fs1-child dashed">
-                <h2 class="mrg-b">
+            <div class="jumbotron dashed">
+                <h2 class="mrg-b2">
                     Il tuo posto per parlare
                 </h2>
-                <p class="mrg-b">
+                <p class="mrg-b2">
                     Che tu faccia parte di un club scolastico, gruppo di gamer, comunità artistica mondiale o semplicemente di un piccolo gruppo di amici che vuole passare il tempo assieme, Discord rende più facile chiacchierare ogni giorno e ritrovarsi più spesso.
                 </p>
-                <button>
-                    <span>Scarica per Mac</span>
+                <button class="mrg-b4">
+                    <span>&downarrow; Scarica per Mac</span>
                 </button>
                 <button>
                     <span class="btn-black">Apri Discord nel tuo Browser</span>
@@ -52,31 +52,69 @@
         </div>
         </div>
     </header>
+    <div class="container">
     <main>
-        <div class="container">
-        <div class="flex-section sec-height bg-cream">
-            <div class="bluediv divflex-height dashed">
+        <div class="flex-section bg-white">
+            <div class="fix-fb60 dashed">
+                <img src="img/item1.svg" alt="Una rana legge un libro in primo piano, sullo sfondo varie chat di gruppo, una per lo studio, una per i giochi, una per condividere foto di animali domestici e una per parlare di cucina">
             </div>
-            <div class="pinkdiv divflex-height dashed">
-            </div>
-        </div>
-        <div class="flex-section sec-height bg-grey">
-            <div class="pinkdiv divflex-height dashed">
-            </div>
-            <div class="bluediv divflex-height dashed">
-            </div>
-        </div>
-        <div class="flex-section sec-height bg-cream">
-            <div class="bluediv divflex-height dashed">
-            </div>
-            <div class="pinkdiv divflex-height dashed">
+            <div class="fix-fb40 dashed">
+                <h2>
+                    Un luogo a invito con tutto lo spazio necessario per parlare
+                </h2>
+                <p>
+                    I server Discord sono organizzati in canali tematici in cui puoi collaborare, condividere o semplicemente parlare della tua giornata senza intasaree una chat di gruppo.
+                </p>
             </div>
         </div>
-        <div class="flex-section sec-height bg-grey">
-            <div class="fs5-children fix-fb60 divflex-height dashed">
+        <div class="flex-section bg-grey">
+            <div class="fix-fb40 dashed">
+                <h2>
+                    Dove trovarsi è facile
+                </h2>
+                <p>
+                    Mettiti comodo in un canale vocale quando hai tempo. Gli amici nel tuo server possono vedere che sei lì e unirsi istantaneamente senza dover chiamare.
+                </p>
+            </div>
+            <div class="fix-fb60 dashed">
+                <img src="img/item2.svg" alt="Un mago lavora alla scrivania con un buffo aiutante rosa con orecchie da coniglio">     
             </div>
         </div>
-        <div class="flex-section sec-height bg-charcoal">
+        <div class="flex-section bg-white">
+            <div class="fix-fb60 dashed">
+                <img src="img/item3.svg" alt="Grafica con un libro e una penna, e una mela e una nespola. Sullo sfondo le chat per lo studio">
+            </div>
+            <div class="fix-fb40 dashed">
+                <h2>
+                    Da pochi a un fandom
+                </h2>
+                <p>
+                    Dai inizio a una community di qualsiasi dimensione con strumenti di moderazione e accesso ai membri personalizzabile. Concedi ai membri poteri speciali, crea canali privati e  molto altro.
+                </p>
+            </div>
+        </div>
+        <div class="flex-section col-flex bg-grey">
+            <h2>
+                Tecnologia affidabile per tenersi in contatto
+            </h2>
+            <p>
+                Video e audio a bassa latenza ti faranno sentire come se foste tutti nella stessa stanza. Fai ciao in video, guarda gli amici giocare in streaming o riunitevi in una sessione di disegno con la condivisione a schermo.
+            </p>
+            <div class="fix-fb60 dashed">
+                <img src="img/item4-big.svg" alt="Un tablet mostra una chiamata di gruppo tra creature di fantasia. A lato un dispositivo mobile mostra il mago collegato in videochiamata.">
+            </div>
+            <p>
+                Pronto a iniziare la tua avventura?
+            </p>
+            <button class="mrg-b4">
+                <span class="btn-indigo">
+                    &downarrow; Scarica per Mac
+                </span>
+            </button>
+        </div>
+    </main>
+    <footer class="col-flex bg-charcoal">
+        <div class="flex-section sec-height">
             <div class="fs6-children divflex-height dashed">
             </div>
             <div class="fs6-children divflex-height">
@@ -88,9 +126,7 @@
             <div class="fs6-children divflex-height">
             </div>
         </div>
-    </main>
-    <footer class="flex-section bg-charcoal">
-        <nav class="flex-nav fix-fb60 foot-flex dashed">
+        <nav class="flex-nav fix-fb60 foot-flex mrg-b2">
             <button class="bg-org fn-children foot-child">Logo</button>
             <button class="bg-org fn-children foot-child">Bottone</button>
         </nav>
