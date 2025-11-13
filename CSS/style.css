@@ -18,7 +18,6 @@ header {
     background-repeat: no-repeat;
     color: #ffffff;
     text-align: center;
-    padding-bottom: 15rem;
 }
 
 
@@ -50,6 +49,7 @@ p > img {
     line-height: 2rem;
     height: 1.2rem;
 }
+
 .btn-black {
     background-color: #000000;
     color: #ffffff;
@@ -59,7 +59,17 @@ p > img {
     background-color: #8da3e2;
     color: #ffffff;
 }
+h1 {
+    font-size: 3rem;
+    font-weight:bolder;}
 
+h2 {
+    font-weight: bolder;
+}
+
+h3, h4 {
+    color: #7185d1;
+}
 /* Utils */
 
 .container {
@@ -68,6 +78,11 @@ p > img {
 }
 .header-ctr {
     max-width: 70%;
+    margin: 0 auto;
+}
+
+.jumbotron {
+    max-width: 50%;
     margin: 0 auto;
 }
 
@@ -122,11 +137,6 @@ p > img {
 
 /* Colori background */
 
-.bg-blue {
-    background-color: #0000ee;
-    height: 400px;
-}
-
 .bg-lightblue {
     background-color: #8fd9ee;  
 }
@@ -147,7 +157,7 @@ p > img {
 /* Graphic elements */
 
 .top-border {
-    border-top: 2px solid #b0adad;
+    border-top: 2px solid #7185d1;
 }
 
 .pg-3 {
@@ -160,6 +170,7 @@ p > img {
 .mrg-b4 {
     margin-bottom: 4rem;
 }
+
 .mrg-t6 {
     margin-top: 6rem;
 }
