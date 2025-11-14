@@ -45,12 +45,6 @@ span {
     padding: 0.5rem
 }
 
-p > img {
-    vertical-align: middle;
-    line-height: 2rem;
-    height: 1.2rem;
-}
-
 .btn-black {
     background-color: #000000;
     color: #ffffff;
@@ -95,11 +89,6 @@ h3, h4 {
     margin: 0 auto;
 }
 
-.jumbotron {
-    max-width: 50%;
-    margin: 0 auto;
-}
-
 .row-flex {
     display: flex;
     flex-direction: row;
@@ -114,32 +103,70 @@ h3, h4 {
     gap: 0.5rem;
     justify-content: center;
     align-items: center;
+    align-content: center;
 }
 
-.flex-nav {
+.al-itms-flex-start {
+    align-items: flex-start;
+}
+
+.foot-flex {
     display: flex;
-    justify-content: space-between;;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: center;
+    color: white;
+    text-align: left;
+}
+
+/* Top-NAVBAR */
+
+#top-nav {
+    display: flex;
+    background-color: #255ee9;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 4rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#nav-logo {
+        object-fit: scale-down;
 }
 
 .fn-children {
     text-align: center;
-    line-height: 6rem;
+    line-height: 4rem;
     vertical-align: middle;
 }
 
-.foot-flex {
-    justify-items: center;
-    align-items: flex-start;
-    color: white;
+.jumbotron {
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.flag {
+    vertical-align: middle;
+    line-height: 1.5rem;
+    height: 1.2rem;
 }
 
 .fs6-children {
     border: 1px dashed #ffffff;
     flex-basis: 15%; 
+    align-items: flex-start;
+    align-content: center;
+
 }
 
 .fs6-children:first-of-type {
-    flex-basis: 40%
+    flex-basis: 40%;
+    line-height:1.5rem;
 }
 
 /* Colori background */
