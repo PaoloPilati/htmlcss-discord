@@ -32,6 +32,8 @@ nav ul li a {
     color: #ffffff;
 }
 
+/* PULSANTI */
+
 button {
     background: none;
     border: none;
@@ -54,6 +56,9 @@ span {
     background-color: #8da3e2;
     color: #ffffff;
 }
+
+/* TESTO */
+
 h1 {
     font-size: 3rem;
 }
@@ -104,10 +109,6 @@ h3, h4 {
     justify-content: center;
     align-items: center;
     align-content: center;
-}
-
-.al-itms-flex-start {
-    align-items: flex-start;
 }
 
 .foot-flex {
@@ -180,7 +181,8 @@ h3, h4 {
 }
 
 .bg-grey {
-    background-color:#d9dcdc;
+    background-color:#f2f2f2;
+    width: 100vw;
 }
 
 .bg-starry {
@@ -231,4 +233,21 @@ h3, h4 {
 
 .fix-fb20 {
     flex-basis: 20%;
+}
+
+.waves {
+    display: flex;
+    background-image: url("../img/wave.svg");
+    background-size: contain;
+    height: 4rem;
+    filter: opacity(0.05);
+}
+
+.upside-down {
+    transform:rotateX(180deg)
+}
+
+
+.mrg-b6 {
+    margin-bottom: 6rem;
 }
