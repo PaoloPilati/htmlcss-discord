@@ -16,7 +16,6 @@ header {
     background-image: url("../img/jumbo.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
     color: #ffffff;
     text-align: center;
 }
@@ -24,12 +23,14 @@ header {
 
 li {
     display: inline-flex;
-    list-style: none;
+    list-style-type: none;
 }
 
 nav ul li a {
     text-decoration: none;
     color: #ffffff;
+    font-weight: bold;
+    padding: 0 0.5rem; 
 }
 
 /* PULSANTI */
@@ -37,6 +38,7 @@ nav ul li a {
 button {
     background: none;
     border: none;
+    font-size: 1rem;
 }
 
 span {
@@ -125,6 +127,7 @@ h3, h4 {
 
 #top-nav {
     display: flex;
+    flex-wrap: nowrap;
     background-color: #255ee9;
     width: 100vw;
     justify-content: center;
@@ -158,7 +161,6 @@ h3, h4 {
 }
 
 .fs6-children {
-    border: 1px dashed #ffffff;
     flex-basis: 15%; 
     align-items: flex-start;
     align-content: center;
@@ -219,7 +221,7 @@ h3, h4 {
     margin-top: 6rem;
 }
 
-.dashed {
+.test-br-dash {
     border: 1px dashed #000000;
 }
 
@@ -250,4 +252,11 @@ h3, h4 {
 
 .mrg-b6 {
     margin-bottom: 6rem;
+}
+
+
+/* REGOLA GENERALE X IMMAGINI ---> Non espanderti oltre il contenitore */
+img {
+    max-width: 100%;
+    height: auto;
 }
